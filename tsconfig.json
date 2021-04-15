@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"strict": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"watch": true,
+		"removeComments": true,
+		"outDir": "src/js"
+	},
+	"include": [
+		"./src/ts/index.ts",
+		"./src/ts/events/*",
+		"./src/ts/commands/*",
+		"./src/ts/utils/*"
+	],
+	"exclude": [
+		"./node_modules",
+		"./package-lock.json",
+		"./package.json",
+		"./tsconfig.json",
+		"./.env"
+	]
+}

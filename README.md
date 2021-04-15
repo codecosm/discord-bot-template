@@ -4,7 +4,7 @@ A simple template repository for a command-based discord bot using the discord.j
 
 ## Setup
 
-After you have cloned this repository to your desired location, create a file simply called `.env` in the main directory, then open that file with your favorite text editor,
+After you have cloned this repository to your desired location, open up a new powershell instance, cd to the main directory of the bot and type `npm install`, then wait until all requirements are installed. Now create a file simply called `.env` in the main directory, then open that file with your favorite text editor,
 and write:
 
 ```
@@ -15,8 +15,6 @@ TOKEN=<your_token_here>
 Replace '\<your_prefix_here\>' with the prefix that you want people to use when interacting with the bot and '\<your_token_here\>' with the discord token of your bot account. If you don't know how to set up a discord bot account, follow [this guide.](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
 
 You can add new commands as files in the `./src/ts/commands/` folder. There is an existing template command file, which shows the basic structure of a command file.
-
-Now open up a new powershell instance, cd to the main directory of the bot and type `npm install`, then wait until all requirements are installed.
 
 To start the bot type `node .` and press enter. Alternatively, if you want the bot to restart with the newest changes everytime you save a file during development, type `npm run dev` to start the bot using nodemon.
 
